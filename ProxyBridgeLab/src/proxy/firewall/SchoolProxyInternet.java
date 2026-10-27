@@ -1,9 +1,7 @@
 package proxy.firewall;
 
-// Task 3: Protection Proxy ("School Wi-Fi Firewall").
-// Same Internet interface as the real thing, so students use it exactly the same way.
 public class SchoolProxyInternet implements Internet {
-    private RealInternet realInternet; // created lazily
+    private RealInternet realInternet;
 
     @Override
     public void connectTo(String site) {

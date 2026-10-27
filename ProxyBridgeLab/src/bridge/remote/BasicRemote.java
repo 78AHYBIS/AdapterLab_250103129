@@ -1,7 +1,5 @@
 package bridge.remote;
 
-// Abstraction side of the bridge: what the USER can press.
-// The `device` field IS the bridge: the remote never knows which concrete machine it drives.
 public class BasicRemote {
     protected Device device;
 

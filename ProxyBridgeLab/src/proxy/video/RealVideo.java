@@ -1,6 +1,5 @@
 package proxy.video;
 
-// The expensive object: downloading/buffering happens once, in the constructor.
 public class RealVideo implements Video {
     private final String fileName;
 

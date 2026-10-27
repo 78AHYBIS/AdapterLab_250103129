@@ -1,6 +1,5 @@
 package bridge.remote;
 
-// Task 5: a brand-new controller feature. Zero changes to Radio, SmartLight or Device.
 public class PartyRemote extends BasicRemote {
     public PartyRemote(Device device) {
         super(device);

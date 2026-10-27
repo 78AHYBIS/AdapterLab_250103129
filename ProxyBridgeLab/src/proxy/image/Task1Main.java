@@ -5,7 +5,7 @@ public class Task1Main {
         Image guestView = new ProxyImage("salary_sheet.png", "GUEST");
         Image adminView = new ProxyImage("salary_sheet.png", "ADMIN");
 
-        guestView.show(); // blocked, RealImage is never created
-        adminView.show(); // allowed: lazy-loads, then displays
+        guestView.show();
+        adminView.show();
     }
 }
